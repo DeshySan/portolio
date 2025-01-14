@@ -16,11 +16,11 @@ const MainPage = () => {
     threshold: 0.3,
   });
   return (
-    <div className='p-4 overflow-y-auto'>
+    <div className='p-4 overflow-y-auto overflow-x-hidden'>
       <div>
         <p className='text-left text-lg'>
           I'm an independent developer passionate about crafting innovative
-          application for the Hsopitalty industry with such a beautiful and
+          application for the Hospitality industry with such a beautiful and
           thoughjtful design and robust enginerring.. My favorite work lies at
           the intersection of design and development, creating experiences that
           not only look great but are meticulously built for performance and

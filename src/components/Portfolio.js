@@ -18,7 +18,7 @@ const Portfolio = () => {
           <div className='w-[35%] mt-12 sticky top-0'>
             <Info />
           </div>
-          <div className='mt-12 ml-28 w-[65%] overflow-scroll '>
+          <div className='mt-12 ml-28 w-[65%] scrollable'>
             <MainPage />
           </div>
         </div>

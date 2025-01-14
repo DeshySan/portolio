@@ -84,3 +84,23 @@ i{
     transform: rotate(360deg) translate(6rem, 0);
   }
 }
+
+/* Hide the scrollbar, but keep the scroll functionality */
+.scrollable {
+  overflow-y: scroll; /* Allow vertical scrolling */
+  scrollbar-width: thin; /* For Firefox: make the scrollbar thinner */
+  scrollbar-color: transparent transparent; /* For Firefox: make the scrollbar invisible */
+}
+
+/* Webkit browsers (Chrome, Safari) */
+.scrollable::-webkit-scrollbar {
+  width: 0px; /* Hides the scrollbar */
+}
+
+.scrollable::-webkit-scrollbar-thumb {
+  background-color: transparent; /* Make the scrollbar thumb invisible */
+}
+
+.scrollable::-webkit-scrollbar-track {
+  background-color: transparent; /* Make the scrollbar track invisible */
+}
