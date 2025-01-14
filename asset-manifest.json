@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/DeshySan/portolio.git/static/css/main.91b9139d.css",
+    "main.js": "/DeshySan/portolio.git/static/js/main.6c64d0f6.js",
+    "static/media/homepage.png": "/DeshySan/portolio.git/static/media/homepage.3dbaa3632af0c4bb0f1b.png",
+    "static/media/logo.svg": "/DeshySan/portolio.git/static/media/logo.6ce24c58023cc2f8fd88fe9d219db6c6.svg",
+    "index.html": "/DeshySan/portolio.git/index.html",
+    "main.91b9139d.css.map": "/DeshySan/portolio.git/static/css/main.91b9139d.css.map",
+    "main.6c64d0f6.js.map": "/DeshySan/portolio.git/static/js/main.6c64d0f6.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.91b9139d.css",
+    "static/js/main.6c64d0f6.js"
+  ]
+}
