@@ -10,7 +10,7 @@ function App() {
   return (
     <div className='App bg-dark min-w-full min-h-screen h-[100%]'>
       <div className='mx-12 h-full'>
-        <BrowserRouter>
+        <BrowserRouter basename='/portolio'>
           <Routes>
             <Route path='/' element={<Portfolio />} />
           </Routes>
