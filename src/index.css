@@ -1,0 +1,22 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@import url('https://fonts.googleapis.com/css2?family=Delius+Swash+Caps&family=Lexend+Exa:wght@100..900&family=Quicksand:wght@300..700&display=swap');
+*{
+    color:white;
+font-family: 'Raleway', sans-serif;
+
+}
+h1{
+font-family: "Lexend Exa", serif;
+
+font-weight: 900;
+font-size: 1.4em;
+}
+h2{
+     font-family: "Delius Swash Caps", serif;
+}
+p{
+      font-family: "Quicksand", serif;
+}

@@ -1,0 +1,86 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+.animated-element {
+  opacity: 0;
+  transition: opacity 3s ease-in-out;
+}
+
+.animated-element.visible {
+  opacity: 1;
+}
+
+.check {
+  opacity: 0;
+  transition: opacity 5s ease-in-out;
+}
+.check.visible {
+  opacity: 1;
+}
+.left-to-right {
+  opacity: 0;
+  transform: translateX(10%); /* Move the element off the screen to the right */
+  transition: opacity 1s ease-in-out, transform 1s ease-in-out; /* Smooth transition for both opacity and position */
+}
+
+.left-to-right.visible {
+  opacity: 1;
+  transform: translateX(0); /* Move the element into its original position */
+}
+.right-to-left{
+  opacity:0;
+  transform:translateX(-10%);
+  transition: opacity 1s ease-in-out, transform 1s ease-in-out; /* Smooth transition for both opacity and position */
+}
+.right-to-left.visible{
+    opacity: 1;
+  transform: translateX(0);
+}
+i{
+  font-size: 2.5em;
+}
+
+@keyframes circle-spin {
+  0% {
+    transform: rotate(0deg) translate(6rem, 0);
+  }
+  100% {
+    transform: rotate(360deg) translate(6rem, 0);
+  }
+}
